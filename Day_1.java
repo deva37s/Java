@@ -2,6 +2,8 @@ public class Day_1 {
     public static void main(String args[])
     {
         //Topics: Print, Variables, Data types, Type conversion and casting, Operators
+
+
         //To print sth in java
             System.out.print("Hello World");    //print and stay in same line 
             System.out.println("Hii Java");     //print and goes to next line
@@ -87,8 +89,86 @@ public class Day_1 {
                 System.out.println(num==num_1);     //check if values are equal
                 System.out.println(num!=num_1);     //check if values are not equal
                 
-                
+            //Logical operators (&& , ||, !): Return boolean value
+            System.out.println((num > 0) && (num_1 < 30));    // True && True= True 
+                //num=10, num_1=3
+        
+        //Contional Statement: if-else, if-else_if-else, ternary operator 
+            // If-else
+                /*
+                if(condition)
+                {
+                    If condition is true
+                }
+                else 
+                {
+                    if condition is false
+                }*/
 
+            //If-else_if-else
+                /*if(condition)
+                {
+                    //If condition is true
+                }
+                else if(condition 2)
+                {
+                    //if condition 2 is true
+                }
+                else
+                {
+                    if both are false
+                }*/
+
+            //Ternary operator 
+                // condition ? (If condition is true) : (If condition is false)
+                int x = 10;
+                int result_1=x>5?20:5;
+                System.out.println(result_1); //20, becoz condition is true
+            
+            //Switch operator
+                // switch (args) {
+                //     case value:
+                        
+                //         break;
+                
+                //     default:
+                //         break;
+                // }
+                int age=3;
+                switch (age) {
+                    case 18:
+                        System.out.println("He/she can vote now");
+                        break;
+                
+                    default:
+                        
+                }
+        //Loops: while, do-while, for
+        //Loops are used to do something repeatively 
+            //while
+                // while (condition) {
+                //    run the instrction while flag is true
+                //    incrementing
+                // }
+                int value=0;
+                while(value<=4)
+                {
+                    System.out.print(value+" ");
+                    value++;
+                }
+                //Output: 0 1 2 3 4 
+            
+            //do-while
+                // do {
+                //     run the instruction while the condition is true
+                //     changing condition
+                // } while (condition);
+
+            //for
+                // for (initialization; condition; increment) {
+                //     instruction to run
+                // }
+                
 
 
     }
