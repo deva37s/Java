@@ -1,6 +1,7 @@
 public class Day_1 {
     public static void main(String args[])
     {
+        //Topics: Print, Variables, Data types, Type conversion and casting, Operators
         //To print sth in java
             System.out.print("Hello World");    //print and stay in same line 
             System.out.println("Hii Java");     //print and goes to next line
